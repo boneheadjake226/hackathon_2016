@@ -2,13 +2,14 @@
 <html>
 <head>
   <title>AccessApp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  
   <link rel="stylesheet" href="http://js.arcgis.com/3.14/dijit/themes/claro/claro.css">
   <link rel="stylesheet" href="https://js.arcgis.com/3.18/esri/css/esri.css"></link>
-  <script src="https://js.arcgis.com/3.18"></script>
+  <script src="https://js.arcgis.com/3.18/"></script>
+  
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <!--<%= javascript_include_tag 'application' %>-->
+  <script src="app/assets/javascripts/arcgis_test.js"></script>
+  <%= csrf_meta_tags %>  
 </head>
 <body>
 

@@ -1,3 +1,5 @@
+//define.amd.jQuery = true; 
+
 //global map variable
 var map;
 //AMD require statement to all in the classes that we be used from the API.  More info at: https://dojotoolkit.org/documentation/tutorials/1.10/modules/
